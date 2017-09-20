@@ -11,7 +11,8 @@ class m160102_154310_init extends Migration
     public function init()
     {
         parent::init();
-        $this->tableName = Module::getInstance()->tableName;
+//         $this->tableName = Module::getInstance()->tableName;
+        $this->tableName = '{{%history}}';
     }
     
     public function up()
